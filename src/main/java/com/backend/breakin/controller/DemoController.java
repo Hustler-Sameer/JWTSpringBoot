@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 	
-	@GetMapping("/ganpatiBappaMorya")
+	@GetMapping("/breakin/ganpatiBappaMorya")
 	public ResponseEntity<?> demo(){
 		return ResponseEntity.ok("Ganpati Bappa Morya");
 	}
